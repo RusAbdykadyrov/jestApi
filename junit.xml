@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="1" errors="0" time="1.486">
+  <testsuite name="UPLOAD" errors="0" failures="1" skipped="0" timestamp="2024-04-19T02:56:38" time="1.457" tests="3">
+    <testcase classname="UPLOAD upload single document" name="UPLOAD upload single document" time="0.304">
+    </testcase>
+    <testcase classname="UPLOAD upload multiple documents" name="UPLOAD upload multiple documents" time="0.527">
+    </testcase>
+    <testcase classname="UPLOAD upload multiple documents" name="UPLOAD upload multiple documents" time="0.023">
+      <failure>Error: ENOENT: no such file or directory, open &apos;data/image/1.jpg&apos;</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

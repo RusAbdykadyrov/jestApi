@@ -19,7 +19,7 @@ describe('UPLOAD', () => {
         expect(res.status).toBe(200);
     });   
     it("upload multiple documents", () => {
-        const files: string[] = ["data/image/1.jpg", "data/image/2.PNG"];
+        const files: string[] = ["data/image/1.png", "data/image/2.png"];
         const req = request.post('/upload/multiple')
         for (const file of files) {
             req.attach('multiple',file)
